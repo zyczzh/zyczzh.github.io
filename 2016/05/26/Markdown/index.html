@@ -37,7 +37,7 @@
 <style>
 
     header.intro-header {
-        background-image: url('http://oumoxm6zw.bkt.clouddn.com/17-8-26/60277926.jpg')
+        background-image: url('http://oumoxm6zw.bkt.clouddn.com/17-8-23/73690275.jpg')
     }
 </style>
 <!-- hack iOS CSS :active style -->
@@ -151,14 +151,13 @@
 <!--only post-->
 
 
-<img class="wechat-title-img"
-     src="http://oumoxm6zw.bkt.clouddn.com/17-8-23/2939455.jpg">
+<img class="wechat-title-img" src="http://oumoxm6zw.bkt.clouddn.com/17-8-24/36401598.jpg">
 
 
 <style>
     
     header.intro-header {
-        background-image: url('http://oumoxm6zw.bkt.clouddn.com/17-8-23/2939455.jpg')
+        background-image: url('http://oumoxm6zw.bkt.clouddn.com/17-8-24/36401598.jpg');
     }
 
     
@@ -174,12 +173,15 @@
                     <h2 class="subheading">基础学习</h2>
                     
                     <span class="meta">
-                         作者 Zyc
+                         作者 zyc
                         <span>
                           日期 2016-05-26
                          </span>
                     </span>
                     <div class="tags text-center">
+                        
+                        <a class="tag" href="/tags/#Markdown"
+                           title="Markdown">Markdown</a>
                         
                     </div>
                 </div>
@@ -199,7 +201,7 @@
         <div class="row">
             <!-- Post Container -->
             <div class="col-lg-8 col-lg-offset-1 col-sm-9 post-container">
-                <h1 id="一级-标题"><a href="#一级-标题" class="headerlink" title="一级 标题"></a>一级 标题</h1><h2 id="二级-标题"><a href="#二级-标题" class="headerlink" title="二级 标题"></a>二级 标题</h2><h3 id="三级-标题"><a href="#三级-标题" class="headerlink" title="三级 标题"></a>三级 标题</h3><p><strong>加粗部分</strong></p>
+                <h1 id="一级-标题"><a href="#一级-标题" class="headerlink" title="一级 标题"></a>一级 标题</h1><h2 id="二级-标题"><a href="#二级-标题" class="headerlink" title="二级 标题"></a>二级 标题</h2><h3 id="三级-标题"><a href="#三级-标题" class="headerlink" title="三级 标题"></a>三级 标题</h3><h1 id="This-is-an-H1"><a href="#This-is-an-H1" class="headerlink" title="This is an H1"></a>This is an H1</h1><h2 id="This-is-an-H2"><a href="#This-is-an-H2" class="headerlink" title="This is an H2"></a>This is an H2</h2><p><strong>加粗部分</strong></p>
 <p><em>Jane Eyre</em></p>
 <h4 id="第一章节"><a href="#第一章节" class="headerlink" title="第一章节"></a>第一章节</h4><p>1.第一节</p>
 <ul>
@@ -208,25 +210,66 @@
 </ul>
 </li>
 </ul>
-<p><a href="http://book.douban.com/subject/1141406/" target="_blank" rel="external"><strong><em>Jane Eyre</em></strong></a> is not just <strong><em>Jane Eyre</em></strong><br><img src="http://img3.douban.com/mpic/s1108264.jpg" alt=""></p>
-<p><em>Jane Eyre</em><br><strong>Jane Eyre</strong><br><strong><em>Jane Eyre</em></strong></p>
+<p><a href="http://book.douban.com/subject/1141406/" target="_blank" rel="external"><strong><em>Jane Eyre</em></strong></a> is not just <strong><em>Jane Eyre</em></strong></p>
+<h2 id=""><a href="#" class="headerlink" title=""></a><img src="http://img3.douban.com/mpic/s1108264.jpg" alt=""></h2><p><em>Jane Eyre</em><br><strong>Jane Eyre</strong><br><strong><em>Jane Eyre</em></strong></p>
 <hr>
 <ul>
 <li>asdf<br>*<blockquote>
 <p>引用</p>
+<blockquote>
+<p>套嵌入</p>
+<blockquote>
+<p>第三层</p>
+</blockquote>
+</blockquote>
 </blockquote>
 </li>
 </ul>
+<blockquote>
+<h2 id="这是一个标题。"><a href="#这是一个标题。" class="headerlink" title="这是一个标题。"></a>这是一个标题。</h2><ol>
+<li>这是第一行列表项。</li>
+<li>这是第二行列表项。</li>
+</ol>
+<p>给出一些例子代码：</p>
+<pre><code>return shell_exec(&quot;echo $input | $markdown_script&quot;);
+</code></pre><hr>
 <ol>
 <li>15</li>
 <li>asdf</li>
 <li>asdg</li>
 </ol>
-<blockquote>
 <p>546548</p>
 </blockquote>
 <p>‘asdfsdf’</p>
+<p>Use the <code>printf()</code> function.</p>
+<p><code>There is a literal backtick (`) here.</code></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">D[f,x]</div></pre></td></tr></table></figure>
+<hr>
+<hr>
+<h2 id="-1"><a href="#-1" class="headerlink" title="  *"></a><em> </em> *</h2><blockquote>
+<p>每行一阶的缩进（4或者1个制表符）会被移除：</p>
+</blockquote>
+<pre><code>tell application &quot;Foo&quot;
+    beep
+end tell
+</code></pre><hr>
+<p><a href="https://www.baidu.com/" target="_blank" rel="external">Baidu</a></p>
+<p>&copy;</p>
+<p>AT&amp;T</p>
+<p>1986. What a great season.</p>
+<hr>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">graph TD</div><div class="line">    A[Christams]--&gt;B[go fucking]</div><div class="line">    B--&gt;C&#123;let me think&#125;</div><div class="line">    C--&gt;|one|D[yes]</div><div class="line">    C--&gt;|two|E[no]</div><div class="line">    C--&gt;|three|F[wait]</div><div class="line">    C--&gt;|four|G[shit]</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">graph LR</div><div class="line">    A[ddd]--&gt;B[ddd]</div><div class="line">    B--&gt;C[ccc]</div><div class="line">    C--&gt;D&#123;let me think&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">graph LR</div><div class="line">    A--&gt;B</div><div class="line">    A--&gt;C</div><div class="line">    B--&gt;D</div><div class="line">    C--&gt;D</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">graph TD</div><div class="line">    client1--&gt;|read / write|SVN((SVN server))</div><div class="line">    client2--&gt;|read only|SVN</div><div class="line">    client3--&gt;|read / write|SVN</div><div class="line">    client4--&gt;|read only|SVN</div><div class="line">    client5(...)--&gt;SVN</div><div class="line">    SVN---|store the data|sharedrive</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">graph TD</div><div class="line">    subgraph SVN Architecture</div><div class="line">    client1--&gt;|read / write|SVN((SVN server))</div><div class="line">    client2--&gt;|read only|SVN</div><div class="line">    client3--&gt;|read / write|SVN</div><div class="line">    client4--&gt;|read only|SVN</div><div class="line">    client5(...)--&gt;SVN</div><div class="line">    SVN---|store the data|sharedrive</div><div class="line">    end</div></pre></td></tr></table></figure>
+<hr>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">graph LR</div><div class="line">    A[直角边]</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">graph LR</div><div class="line">    A((圆形))</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">graph LR</div><div class="line">    A&#123;菱形&#125;</div></pre></td></tr></table></figure>
+<hr>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">gantt</div><div class="line">dateFormat YYYY-MM-DD</div><div class="line">section S1</div><div class="line">T1: 2014-01-01, 9d</div><div class="line">section S2</div><div class="line">T2: 2014-01-11, 9d</div><div class="line">section S3</div><div class="line">T3: 2014-01-02, 9d</div></pre></td></tr></table></figure>
+<hr>
 
                 <hr>
                 
@@ -234,8 +277,8 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2017/08/23/建筑/" data-toggle="tooltip" data-placement="top"
-                           title="建筑">&larr; Previous Post</a>
+                        <a href="/2017/08/23/your-post-name/" data-toggle="tooltip" data-placement="top"
+                           title="Hello World">&larr; Previous Post</a>
                     </li>
                     
                     
@@ -252,7 +295,7 @@
 
             <div class="hidden-xs col-sm-3 toc-col">
                 <div class="toc-wrap">
-                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#一级-标题"><span class="toc-text">一级 标题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#二级-标题"><span class="toc-text">二级 标题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#三级-标题"><span class="toc-text">三级 标题</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#第一章节"><span class="toc-text">第一章节</span></a></li></ol></li></ol></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#一级-标题"><span class="toc-text">一级 标题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#二级-标题"><span class="toc-text">二级 标题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#三级-标题"><span class="toc-text">三级 标题</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#This-is-an-H1"><span class="toc-text">This is an H1</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#This-is-an-H2"><span class="toc-text">This is an H2</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#第一章节"><span class="toc-text">第一章节</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#"><span class="toc-text"></span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#这是一个标题。"><span class="toc-text">这是一个标题。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-1"><span class="toc-text">  *</span></a></li></ol></li></ol>
                 </div>
             </div>
         </div>
@@ -273,6 +316,9 @@
                         <a href="/tags/">FEATURED TAGS</a>
                     </h5>
                     <div class="tags">
+                        
+                        <a class="tag" href="/tags/#Markdown"
+                           title="Markdown">Markdown</a>
                         
                     </div>
                 </section>
@@ -314,10 +360,19 @@
                 
                 
                 
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/赵轩">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                
 
                 
                     <li>
-                        <a target="_blank" href="http://weibo.com/zyczzh">
+                        <a target="_blank" href="http://weibo.com/-应超">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
